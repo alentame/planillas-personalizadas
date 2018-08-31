@@ -1,13 +1,13 @@
 @media screen {
+    /* preloading del fondo */
     body::after{
-        position:absolute; 
-        width: 0; 
-        height: 0; 
-        overflow: hidden; 
+        position:absolute;
+        width: 0;
+        height: 0;
+        overflow: hidden;
         z-index: -1;
-        content: url(https://s3.amazonaws.com/assets.alenta.me/planilla-vasco.svg);
+        content: url(https://cdn.rawgit.com/alentame/planillas-personalizadas/master/fondo_paradise.svg);
     }
-
 }
 
 @media only print {
@@ -23,18 +23,8 @@
         display: none;
     }
 
-    /* preloading del fondo */
-    body::after{
-        position:absolute; 
-        width: 0; 
-        height: 0; 
-        overflow: hidden; 
-        z-index: -1;
-        content: url(https://dl.dropboxusercontent.com/s/3vni31zrrsf651e/planilla%20paradise%20770x523px.svg?dl=0);
-    }
-
     .lineup-print-container {
-        background-image: url(https://dl.dropboxusercontent.com/s/3vni31zrrsf651e/planilla%20paradise%20770x523px.svg?dl=0) !important;
+        background-image: url(https://cdn.rawgit.com/alentame/planillas-personalizadas/master/fondo_paradise.svg) !important;
         width: 28.16cm;
         height: 19cm;
         display: block;
