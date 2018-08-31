@@ -1,0 +1,205 @@
+@media screen {
+    body::after{
+        position:absolute;
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        z-index: -1;
+        content: url(https://cdn.rawgit.com/alentame/planillas-personalizadas/master/marca_agua_ldp.png);
+    }
+}
+
+@media only print {
+    @page {
+        size: legal portrait;
+        margin-top: 0.75in;
+        margin-bottom: 0.75in;
+        margin-left: 0.75in;
+        margin-right: 0.75in;
+    }
+
+    .lineup-bg-image {
+        display: block;
+        background: url(https://cdn.rawgit.com/alentame/planillas-personalizadas/master/marca_agua_ldp.png) no-repeat !important;
+        background-position: center !important;
+        -webkit-print-color-adjust: exact;
+    }
+
+    .lineup-print-container {
+        background: white;
+        width: 18.45cm;
+        height: 27.16cm;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 0.5cm;
+        overflow: hidden;
+    }
+
+    .lineup-print-container-body {
+        position: relative;
+    }
+
+    .header-ref-legend {
+        display: none;
+    }
+
+    .lineups-header .panel {
+        border: none;
+        margin-bottom: 0px;
+    }
+
+    .lineups-header .panel-body {
+        padding: 0px !important;
+    }
+
+    .players-table,
+    .players-table.table-bordered th,
+    .players-table.table-bordered td {
+        border: none !important;
+        background: transparent !important;
+        vertical-align: middle;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        height: 36.5px;
+    }
+
+    .players-table.table-bordered td:nth-child(2) {
+        padding-left: 0px;
+        line-height: unset;
+    }
+
+    .players-table thead {
+        display: none !important;
+    }
+
+    .players-table .players-document-cell-within-name {
+        display: block;
+    }
+
+    .players-table .players-document-cell {
+        display: none;
+    }
+
+    .players-table .players-players-name-cell {
+        vertical-align: top;
+        max-width: 150px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+
+    .lineups-header .header-ref-referee {
+        display: none;
+    }
+
+    .lineups-header .header-ref-venue {
+        position: absolute;
+        left: 130px;
+        display: block;
+    }
+
+    .lineups-header .header-ref-hour {
+        position: absolute;
+        left: 120px;
+        top: 33px;
+    }
+
+    .lineups-header .header-ref-pitch {
+        position: absolute;
+        left: 130px;
+        top: 33px;
+    }
+
+    .lineups-header .header-ref-fixture {
+        position: absolute;
+        left: 600px;
+    }
+
+    .lineups-header .header-ref-day {
+        position: absolute;
+        left: 120px;
+    }
+
+    .lineups-header .header-ref-tournament,
+    .lineups-header .header-ref-season,
+    .lineups-header .header-ref-category {
+        display: inline-block;
+    }
+
+    .lineups-header .header-ref-tournament,
+    .lineups-header .header-ref-season {
+        margin-right: 5px;
+    }
+
+    .lineups-header .header-ref-tournament:after,
+    .lineups-header .header-ref-season:after {
+        content: '-';
+        margin-left: 5px;
+    }
+
+    .lineups-header .header-ref {
+        vertical-align: middle;
+        line-height: 2.1;
+    }
+
+    .lineups-header .match-info {
+        height: 155px;
+    }
+
+    .lineups-header .match-info-1 {
+        position: relative;
+        font-size: 18px;
+        font-weight: bold;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .lineups-header .match-info-2 {
+        position: relative;
+    }
+
+    .lineups-header .match-info-3 {
+        position: relative;
+    }
+
+    .lineups-header .team-title {
+        margin-top: 6px;
+        max-width: 252px;
+        display: -webkit-box;
+        overflow: hidden;
+        position: relative;
+        line-height: 1.2em;
+        max-height: 2.4em;
+        text-align: justify;
+        white-space: normal;
+        padding-right: 6px;
+    }
+
+    .lineups-header .home-team-title {
+        margin-left: 10px;
+    }
+
+    .lineups-header .away-team-title {
+        margin-left: 77px;
+    }
+
+    .lineups-print-container .tables-container {
+        margin-top: 36px;
+    }
+
+    .tshirt-column {
+        width: 35px;
+    }
+
+    .player-column {
+        width: 181px;
+    }
+
+    .team-names-container {
+        height: 100px;
+        max-height: 100px;
+    }
+}
+
