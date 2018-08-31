@@ -6,12 +6,11 @@
 	    height: 0; 
 	    overflow: hidden; 
 	    z-index: -1;
-	    content: url(https://cdn.rawgit.com/alentame/planillas-personalizadas/master/fondo_vasco.svg);
+	    content: url(https://cdn.rawgit.com/alentame/planillas-personalizadas/v1.0.0/fondo_vasco.svg);
 	}
 }
 
 @media only print {
-
 	@page {
 	    size: A4 landscape;
 	    margin-top: 7.5mm;
@@ -23,7 +22,7 @@
 	}
 
 	.lineup-print-container {
-	    background-image: url(https://cdn.rawgit.com/alentame/planillas-personalizadas/master/fondo_vasco.svg) !important;
+	    background-image: url(https://cdn.rawgit.com/alentame/planillas-personalizadas/v1.0.0/fondo_vasco.svg) !important;
 	    width: 28.16cm;
 	    height: 19cm;
 	    display: block;
