@@ -8,7 +8,7 @@
 
 .lineup-bg-image {
     display: block;
-    background: url(https://raw.githubusercontent.com/alentame/planillas-personalizadas/master/marca_agua_vintage.png) no-repeat !important;
+    background: url(https://cdn.rawgit.com/alentame/planillas-personalizadas/master/marca_agua_vintage.png) no-repeat !important;
     background-position: center !important;
     -webkit-print-color-adjust: exact;
 }
