@@ -1,0 +1,194 @@
+/* preloading del fondo */
+@media screen {
+	body::after{
+	    position:absolute; 
+	    width: 0; 
+	    height: 0; 
+	    overflow: hidden; 
+	    z-index: -1;
+	    content: url(https://s3.amazonaws.com/assets.alenta.me/planilla-vasco.svg);
+	}
+
+}
+
+@media only print {
+
+	@page {
+	    size: A4 landscape;
+	    margin-top: 7.5mm;
+	    margin-left: 30mm;
+	}
+
+	.lineup-bg-image {
+		display: none;
+	}
+
+	.lineup-print-container {
+	    background-image: url(https://s3.amazonaws.com/assets.alenta.me/planilla-vasco.svg) !important;
+	    width: 28.16cm;
+	    height: 19cm;
+	    display: block;
+	    margin: 0 auto;
+	    margin-bottom: 0.5cm;
+	    overflow: hidden;
+	    background-size: cover !important;
+	    background-repeat:  no-repeat !important
+	 }
+
+	.header-ref-legend {
+	    display: none;
+	}
+
+	.lineups-header .panel {
+	     border: none;
+	     margin-bottom: 0px;
+	 }
+
+	.players-name-cell {
+	    
+	    font-size: 11px;
+	}
+
+	 .players-table,
+	.players-table.table-bordered th,
+	.players-table.table-bordered td {
+	    border: none !important;
+	    background: transparent !important;
+	    vertical-align: middle;
+	    padding-top: 0px;
+	    padding-bottom: 0px;
+	    height: 20px;
+	    margin-left: -20px;
+	}
+
+	.players-table thead {
+	    display: none !important;
+	}
+
+	.players-table .players-document-cell-within-name {
+	    display: none;
+	}
+
+	.players-table .players-document-cell {
+	    position: relative;
+	    right: 126px;
+	}
+
+	.players-table .players-players-name-cell {
+	    vertical-align: top;
+	    max-width: 150px;
+	    overflow: hidden;
+	    white-space: nowrap;
+	    text-overflow: ellipsis;
+	}
+
+
+	.lineups-header .header-ref-referee {
+	    display: none;
+	}
+
+	.lineups-header .header-ref-venue {
+	    position: absolute;
+	    left: -310px;
+	    top: 47.5px
+	}
+
+	.lineups-header .header-ref-pitch {
+	    position: absolute;
+	    left: -130px;
+	    top: 33px;
+	}
+
+	.lineups-header .header-ref-fixture {
+	    position: absolute;
+	    left: 55px;
+	    top: 2.5px;
+	}
+
+	.lineups-header .header-ref-day {
+	    position: absolute;
+	    left: 55px;
+	    top: 25.5px;
+	}
+
+	.lineups-header .header-ref-day:after {
+	    content:"-";
+	    margin-left: 6px;
+	}
+
+	.lineups-header .header-ref-hour {
+	    position: absolute;
+	    left: 140px;
+	    top: 25.5px;
+	}
+
+	.lineups-header .header-ref-tournament {
+	    position: absolute;
+	    left: 77px;
+	    top: 2.5px;
+	}
+
+	.lineups-header .header-ref-tournament:after {
+	    content: "-";
+	    margin-left: 5px;
+	}
+
+	.lineups-header .header-ref-season {
+	    position: absolute;
+	    left: 132px;
+	    top: 2.5px;
+	}
+
+	.lineups-header .header-ref-category {
+	    position: absolute;
+	    left: 75px;
+	    top: 25.4px;
+	}
+
+	.lineups-header .header-ref-pitch {
+	    position: absolute;
+	    left: -635px;
+	    top: 47.8px;
+	}
+
+	.lineups-header .match-info {
+	    height: 118px;
+	}
+
+	.lineups-header .team-title {
+	    margin-top: 6px;
+	    max-width: 420px;
+	    overflow: hidden;
+	    line-height: 1.2em;
+	    max-height: 2.4em;
+	    padding-right: 6px;
+	    font-size: 30px;
+	    text-overflow: ellipsis;
+	    white-space: nowrap;
+	}
+
+	.lineups-header .home-team-title {
+	    margin-left: 30px;
+	}
+
+	.lineups-header .away-team-title {
+	    margin-left: 90px;
+	}
+
+	.lineups-print-container .tables-container {
+	    margin-top: 36px;
+	}
+
+	.tshirt-column {
+	    width: 35px;
+	}
+
+	.player-column {
+	    width: 181px;
+	}
+
+	.team-names-container {
+	    height: 60px;
+	    max-height: 100px;
+	}
+}
