@@ -2,8 +2,17 @@
     @page {
         size: legal landscape;
         margin-top: 7.5mm;
+        margin-bottom: 10mm;
         margin-left: 30mm;
+        margin-right: 10mm;
     }
+    
+    .lineup-print-container {
+	    width: 31.6cm;
+	    height: 19.75cm;
+	    display: block;
+	    overflow: hidden;
+	 }
 
     .header-ref-legend {
         display: none;
