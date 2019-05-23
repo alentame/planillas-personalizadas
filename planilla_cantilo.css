@@ -1,13 +1,24 @@
 @media only print{
     @page {
         size: legal landscape;
-        margin-top: 7.5mm;
-        margin-left: 30mm;
+        margin-top: 10mm;
+        margin-bottom: 10mm;
+        margin-left: 20mm;
+        margin-right: 20mm; 
     }
 
     .header-ref-legend {
         display: none;
     }
+
+    .page-reference {
+        display: none;
+    }
+
+    .lineups-header {
+        position: relative;
+    }
+
     .lineups-header .panel {
         border: none;
         margin-bottom: 0px;
@@ -21,6 +32,8 @@
     .players-table.table-bordered th,
     .players-table.table-bordered td {
         border: none !important;
+        line-height: unset;
+        padding: 0px;
     }
 
     .players-table thead {
@@ -28,7 +41,6 @@
     }
 
     .players-table .players-document-cell {
-        margin-left: 50px;
     }
 
     .lineups-header .header-ref-referee {
@@ -46,8 +58,8 @@
 
     .lineups-header .header-ref-hour {
         position: absolute;
-        top: 27px;
-        left: 346px;
+        top: 25px;
+        left: 9cm;
     }
 
     .lineups-header .header-ref-tournament,
@@ -64,27 +76,41 @@
     }
 
     .lineup-print-container {
-        margin-top: 30px;
+        margin-top: 0.4cm;
     }
 
     .lineups-header .match-info {
-        height: 57px;
+        height: 1.6cm;
+        margin-top: 0.3cm;
+        position: relative;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
+    .lineups-header .match-info .match-info-1,
+    .lineups-header .match-info .match-info-2,
+    .lineups-header .match-info .match-info-3 {
+        width: unset;
+        position: absolute;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    /* match info columns */
+    /* column info 1: margin-left: 6.1cm; */
+    /* column info 2: margin-left: 18cm; */
+    /* column info 3: margin-left: 28.3cm; */
 
     .lineups-header .match-info-1 {
-        margin-left: 246px;
-        position: absolute;
+        margin-left: 6.1cm;
     }
 
     .lineups-header .match-info-2 {
-        margin-left: 695px;
-        position: absolute;
+        margin-left: 18cm;
     }
 
     .lineups-header .match-info-3 {
-        margin-left: 1026px;
-        position: absolute;
+        margin-left: 27cm;
     }
 
     .lineups-header .team-title {
@@ -100,36 +126,55 @@
     }
 
     .lineups-print-container .tables-container {
-        margin-top: 23px;
+        position: relative;
+        margin-top: 27px;
+        margin-right: 0px;
+        margin-left: 0px;
     }
 
     .players-table > thead > tr > th,
     .players-table > tbody > tr > th,
     .players-table > thead > tr > td,
     .players-table > tbody > tr > td {
-        line-height: 0.3;
+        line-height: unset;
     }
 
+    .players-table > thead > tr,
+    .players-table > tbody > tr,
+    .players-table > thead > tr,
+    .players-table > tbody > tr {
+        height: 0.49cm;
+        font-size: 10px;
+    }
+
+        
+
     .lineups-print-container .home-table-container {
-        margin-left: 16px;
+        margin-left: 0.2cm;
     }
 
     .lineups-print-container .home-table-container,
     .lineups-print-container .away-table-container {
-        width: 405px;
+        width: 10.8cm;
         min-height: 510px;
+        padding-right: 0px;
+        padding-left: 0px;
     }
 
     .lineups-print-container .away-table-container {
         position: absolute;
-        left: 567px;
+        left: 15.1cm;
     }
 
     .tshirt-column {
-        width: 35px;
+        width: 1cm;
     }
 
     .player-column {
-        width: 181px;
+        width: 6.4cm;
+    }
+
+    .document-column {
+        width: 3.4cm;
     }
 }
