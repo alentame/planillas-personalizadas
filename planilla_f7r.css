@@ -231,6 +231,10 @@
     .tshirt-column {
         width: 38px !important;
     }
+    
+    .document-column {
+        display: none !important;
+    }
 
     .player-column {
         width: 159px;
