@@ -6,7 +6,7 @@
         height: 0; 
         overflow: hidden; 
         z-index: -1;
-        content: url(https://cdn.rawgit.com/alentame/planillas-personalizadas/master/fondo_f7r.svg);
+        content: url(https://s3.amazonaws.com/assets.alenta.me/planilla-f7r.svg);
     }
 
 }
@@ -23,7 +23,7 @@
     }
 
     .lineup-print-container {
-        background-image: url(https://cdn.rawgit.com/alentame/planillas-personalizadas/master/fondo_f7r.svg) !important;
+        background-image: url(https://s3.amazonaws.com/assets.alenta.me/planilla-f7r.svg) !important;
         width: 28.16cm;
         height: 19cm;
         display: block;
