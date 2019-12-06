@@ -229,15 +229,23 @@
     }
 
     .tshirt-column {
-        width: 25px !important;
+        width: 38px !important;
     }
 
     .player-column {
-        width: 181px;
+        width: 159px;
     }
 
     .team-names-container {
         height: 100px;
         max-height: 100px;
+    }
+
+    .page-reference {
+        font-size: 9px;
+    }
+
+    .page-reference-text {
+        display: none;
     }
 }
