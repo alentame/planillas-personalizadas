@@ -11,6 +11,33 @@
 }
 
 @media only print {
+     .lineup-print-container:not(.duplicate-sheet) .away-table-container {
+        display: none;
+    }
+
+    .lineup-print-container:not(.duplicate-sheet) .home-team-title {
+        font-weight: bold;
+    }
+
+    .lineup-print-container.duplicate-sheet .home-table-container {
+        display: none;
+    }
+
+    .lineup-print-container.duplicate-sheet .away-team-title {
+        font-weight: bold;
+    }
+    
+    .lineup-print-container:not(.duplicate-sheet) .away-table-container {
+        display: none;
+    }
+
+    .away-table-container {
+        padding-left: 15px;
+    }
+    
+    .lineup-print-container.duplicate-sheet .home-table-container {
+        display: none;
+    }
 
     @page {
         size: legal portrait;
@@ -65,6 +92,10 @@
         padding-top: 0px;
         padding-bottom: 0px;
         height: 30px;
+    }
+
+    .players-table .players-document-td {
+        display: none;
     }
 
     .players-table.table-bordered td:nth-child(2) {
@@ -194,7 +225,7 @@
     }
 
     .tshirt-column {
-        width: 35px;
+        width: 38px;
     }
 
     .player-column {
