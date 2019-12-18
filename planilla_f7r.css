@@ -1,9 +1,9 @@
 @media screen {
     body::after{
-        position:absolute; 
-        width: 0; 
-        height: 0; 
-        overflow: hidden; 
+        position:absolute;
+        width: 0;
+        height: 0;
+        overflow: hidden;
         z-index: -1;
         content: url(https://s3.amazonaws.com/assets.alenta.me/planilla-f7r.svg);
     }
@@ -34,9 +34,14 @@
     .away-table-container {
         padding-left: 15px;
     }
-    
+
     .lineup-print-container.duplicate-sheet .home-table-container {
         display: none;
+    }
+
+    .home-table-container,
+    .away-table-container {
+        width: 251px;
     }
 
     @page {
@@ -100,6 +105,7 @@
 
     .players-comment-td {
         display: table-cell !important;
+        max-width: 34px;
     }
 
     .players-table.table-bordered td:nth-child(2) {
@@ -119,9 +125,8 @@
         display: none;
     }
 
-    .players-table .players-players-name-cell {
-        vertical-align: top;
-        max-width: 150px;
+    .players-table .players-name-cell {
+        max-width: 152px;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
@@ -211,7 +216,7 @@
         position: relative;
         line-height: 1.2em;
         max-height: 2.4em;
-        text-align: justify;
+        text-align: left;
         white-space: normal;
         padding-right: 6px;
     }
@@ -231,9 +236,13 @@
     .tshirt-column {
         width: 38px !important;
     }
-    
+
     .document-column {
         display: none !important;
+    }
+
+    .comment-column {
+        width: 36px;
     }
 
     .player-column {
