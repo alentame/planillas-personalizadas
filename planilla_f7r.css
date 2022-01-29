@@ -42,7 +42,7 @@
 
     .home-table-container,
     .away-table-container {
-        width: 251px;
+        width: 459px;
     }
 
     @page {
@@ -100,10 +100,6 @@
         height: 30px;
     }
 
-    .players-document-td {
-        display: none !important;
-    }
-
     .players-comment-td {
         display: table-cell !important;
         max-width: 34px;
@@ -122,10 +118,6 @@
         display: none;
     }
 
-    .players-table .players-document-cell {
-        display: none;
-    }
-
     .players-table .players-name-cell {
         max-width: 152px;
         overflow: hidden;
@@ -133,6 +125,17 @@
         text-overflow: ellipsis;
     }
 
+    .players-birth-date-cell {
+        margin-left: 12px;
+    }
+
+    .birth-date-column {
+        display: table-column !important;
+    }
+
+    .players-birth-date-td {
+        display: table-cell !important;
+    }
 
     .lineups-header .header-ref-referee {
         display: none;
