@@ -42,7 +42,7 @@
 
     .home-table-container,
     .away-table-container {
-        width: 459px;
+        width: 546px;
     }
 
     @page {
@@ -119,7 +119,7 @@
     }
 
     .players-table .players-name-cell {
-        max-width: 152px;
+        max-width: 180px;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
@@ -239,10 +239,11 @@
     }
 
     .tshirt-column {
-        width: 38px !important;
+        width: 45px !important;
     }
 
     .document-column {
+        width: auto;
     }
 
     .comment-column {
@@ -250,6 +251,7 @@
     }
 
     .player-column {
+        width: 190px;
     }
 
     .team-names-container {
