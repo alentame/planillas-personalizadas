@@ -131,6 +131,7 @@
 
     .birth-date-column {
         display: table-column !important;
+        width: 112px;
     }
 
     .players-birth-date-td {
@@ -247,7 +248,8 @@
     }
 
     .comment-column {
-        width: 36px;
+        width: 47px;
+        display: table-column !important;
     }
 
     .player-column {
