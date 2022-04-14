@@ -97,7 +97,7 @@
         vertical-align: middle;
         padding-top: 0px;
         padding-bottom: 0px;
-        height: 30px;
+        height: 35.9px;
     }
 
     .players-comment-td {
@@ -150,13 +150,13 @@
     .lineups-header .header-ref-hour {
         position: absolute;
         left: 120px;
-        top: 33px;
+        top: 37px;
     }
 
     .lineups-header .header-ref-pitch {
         position: absolute;
         left: 130px;
-        top: 33px;
+        top: 37px;
     }
 
     .lineups-header .header-ref-fixture {
@@ -231,7 +231,7 @@
     }
 
     .lineups-header .away-team-title {
-        margin-left: 77px;
+        margin-left: 94px;
     }
 
     .lineups-print-container .tables-container {
@@ -243,7 +243,6 @@
     }
 
     .document-column {
-        display: none !important;
     }
 
     .comment-column {
@@ -251,7 +250,6 @@
     }
 
     .player-column {
-        width: 159px;
     }
 
     .team-names-container {
