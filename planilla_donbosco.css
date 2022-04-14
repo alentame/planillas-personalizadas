@@ -161,7 +161,7 @@
 
     .lineups-header .header-ref-fixture {
         position: absolute;
-        left: 600px;
+        left: 700px;
     }
 
     .lineups-header .header-ref-day {
@@ -193,6 +193,7 @@
 
     .lineups-header .match-info {
         height: 155px;
+        margin-top: 14px;
     }
 
     .lineups-header .match-info-1 {
@@ -234,7 +235,7 @@
     }
 
     .lineups-print-container .tables-container {
-        margin-top: 36px;
+        margin-top: 66px;
     }
 
     .tshirt-column {
@@ -256,6 +257,7 @@
     .team-names-container {
         height: 100px;
         max-height: 100px;
+        margin-top: 15px;
     }
 
     .page-reference {
